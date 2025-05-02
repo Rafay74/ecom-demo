@@ -1,4 +1,3 @@
-import { SHOPS_ITEMS } from '../../../data';
 
 
 const DealsSection = () => {

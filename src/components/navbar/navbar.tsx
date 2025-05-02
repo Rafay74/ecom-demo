@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { NAVBAR_ITEMS } from "../../data";
 
 const Navbar: React.FC = () => {
