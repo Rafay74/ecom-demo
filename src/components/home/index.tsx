@@ -10,6 +10,7 @@ const HomeSection = () => {
       <CardSection />
       <ShopSection/>
       <MemberSection/>
+      <ShopSection/>
     </div>
   );
 };

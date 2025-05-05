@@ -1,6 +1,8 @@
 import shirt from "../assets/shirt.jpg"
 import shoes from "../assets/shoes.jpg"
 import bag from "../assets/bag.jpg"
+
+
 export const NAVBAR_ITEMS = [
     { label: 'FORSA', path: '/' },
     { label: 'Women', path: '/women' },
@@ -73,3 +75,106 @@ export const SHOPS_ITEMS = [
         image: bag,
     },
 ];
+
+
+export const FOOTER_DATA = [
+    {
+        title: "Join our community",
+        text: "123 Anywhere St.Any City, ST 12345",
+        text2: "Tel: 123-456-7890",
+        text3: "hello@reallygreatesite.com"
+
+    },
+    {
+        title: "Business Hour",
+        text: "Monday - Friday: 9am - 5pm",
+        text2: "Saturday - Sunday: 10am - 4pm",
+        
+    },
+
+    {
+        title: "About Us",
+    },
+
+
+]
+
+export const topsData = [
+    {
+      brand: "Balenciaga",
+      title: "Sleeveless T-Shirt",
+      price: "678 AED",
+      size: "S International",
+      condition: "Very good condition",
+      country: "",
+      image: shoes,
+    },
+    {
+      brand: "Gucci",
+      title: "Grey T-shirt",
+      price: "945 AED",
+      size: "M International",
+      condition: "Very good condition",
+      country: "Italy",
+      image: shoes,
+    },
+    {
+      brand: "Versace Jeans",
+      title: "T Shirt",
+      price: "416 AED",
+      size: "S International",
+      condition: "Good condition",
+      country: "",
+      image: shoes,
+    },
+    {
+      brand: "Jean Paul Gaultier",
+      title: "Leafs Shirt",
+      price: "1,181 AED",
+      size: "EU 38",
+      condition: "Very good condition",
+      country: "Italy",
+      image: shoes,
+    },
+  ];
+  
+ export  const bottomsData = [
+    {
+      brand: "Dolce & Gabbana",
+      title: "Jeans pants",
+      price: "495 AED",
+      size: "M International",
+      condition: "Very good condition",
+      country: "",
+      image: shoes,
+    },
+    {
+      brand: "Balmain",
+      title: "Pants",
+      price: "657 AED",
+      oldPrice: "811 AED",
+      size: "EU 38",
+      condition: "Very good condition",
+      country: "Lebanon",
+      image: shoes,
+    },
+    {
+      brand: "Bottega Veneta",
+      title: "Jacquard Terry Pants",
+      price: "6,215 AED",
+      size: "EU 38",
+      condition: "Never worn, with tag",
+      country: "",
+      image: shoes,
+    },
+    {
+      brand: "Ralph Lauren",
+      title: "Pants",
+      price: "568 AED",
+      size: "S International",
+      condition: "Very good condition",
+      country: "Latvia",
+      image: shoes,
+    },
+  ];
+  

@@ -1,10 +1,13 @@
 import React from "react";
 import { NAVBAR_ITEMS } from "../../data";
+import MainSection from "./main-header";
+import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
 
   return (
     <>
+      
       <nav className="bg-primary text-white text-lg h-20 flex items-center justify-center px-4 sm:px-6 md:px-10 lg:px-20  z-50">
         <div className="hidden lg:flex items-center gap-14">
           {NAVBAR_ITEMS.map((menu, index) => (
@@ -14,7 +17,7 @@ const Navbar: React.FC = () => {
                 index === 0 ? "text-white font-semibold" : ""
               }`}
             >
-              {menu.label}
+              <Link to={menu.path}>{menu.label} </Link>
             </div>
           ))}
         </div>
@@ -23,6 +26,11 @@ const Navbar: React.FC = () => {
           <div className="bg-primary text-white text-lg font-semibold ">FORSA LUXURY</div>
         </div>
       </nav>
+      <div className="bg-white">
+        <MainSection/>
+      </div>
+
+    
     </>
   );
 };

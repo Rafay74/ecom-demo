@@ -1,7 +1,7 @@
 import clothes from "../../../assets/clothes.jpg";
 const HeroSection = () => {
   return (
-    <div className="bg-primary text-white p-6 w-full h-screen">
+    <div className="bg-primary text-white p-10 w-full h-screen">
       <div>
         <div className="flex flex-col text-6xl">
           <span>Buy for less.</span>

@@ -1,6 +1,8 @@
 export const ROUTE_CONSTANTS = {
     HOME: '/',
-    JOB_TRACKER: '/job-tracker',
-    PROFILE: '/profile',
+    WOMEN: '/women',
+    MEN: '/men',
+    KID: '/kids',
+    DONATION: '/donation'
   };
   

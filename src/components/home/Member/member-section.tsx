@@ -3,7 +3,7 @@ import cover from "../../../assets/cover.jpg";
 const MemberSection = () => {
   return (
     <div
-      className="-mx-4 sm:-mx-6 md:-mx-8 lg:-mx-16 xl:-mx-24 bg-white min-h-screen flex items-center justify-center relative"
+      className=" bg-white min-h-screen flex items-center justify-center relative"
       style={{
         backgroundImage: `url(${cover})`,
         backgroundSize: 'cover',
