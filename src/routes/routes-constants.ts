@@ -3,6 +3,7 @@ export const ROUTE_CONSTANTS = {
     WOMEN: '/women',
     MEN: '/men',
     KID: '/kids',
-    DONATION: '/donation'
+    LOGIN: '/login',
+    REGISTER: '/register'
   };
   

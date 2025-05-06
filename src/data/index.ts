@@ -8,9 +8,8 @@ export const NAVBAR_ITEMS = [
     { label: 'Women', path: '/women' },
     { label: 'Men', path: '/men' },
     { label: 'Kids', path: '/kids' },
-    { label: 'Home', path: '/home' },
-    { label: 'Donation', path: '/donation' },
-
+    { label: 'Login', path: '/login'},
+    { label: 'Register', path: '/register'}
 ];
 
 

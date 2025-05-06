@@ -7,7 +7,7 @@ import { FOOTER_DATA } from "../../data";
 const Footer = () => {
   return (
     <footer className="bg-primary text-white w-full  py-12 flex flex-col gap-12">
-      <div className="flex flex-col md:flex-row items-start gap-6">
+      <div className="flex flex-col md:flex-row items-start  px-12 gap-6">
         <img
           src={logo}
           alt="Forsa Logo"
@@ -23,7 +23,7 @@ const Footer = () => {
           </h2>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-start md:justify-between items-start gap-10 md:gap-20 px-4 md:px-12">
+      <div className="flex flex-col  md:flex-row justify-start md:justify-between items-start gap-10 md:gap-20  md:px-12">
         {FOOTER_DATA.map((item, index) => (
           <div key={index} className="flex flex-col">
             <span className="text-2xl sm:text-3xl font-semibold mb-2">
