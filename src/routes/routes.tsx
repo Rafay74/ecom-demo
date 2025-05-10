@@ -7,6 +7,7 @@ import MenPage from "../pages/Men";
 import KidPage from "../pages/Kid";
 import LoginPage from "../pages/Login";
 import RegisterPage from "../pages/Register";
+import ForgetPasswordPage from "../pages/Forget-Password";
 const AppRoutes = () => {
   return (
     <Routes>
@@ -17,6 +18,7 @@ const AppRoutes = () => {
         <Route path={ROUTE_CONSTANTS.KID} element={<KidPage/>} />
         <Route path={ ROUTE_CONSTANTS.LOGIN} element={ <LoginPage/>} />
         <Route path={ROUTE_CONSTANTS.REGISTER} element={ <RegisterPage/> } />
+        <Route path={ROUTE_CONSTANTS.FORGET_PASSWORD} element={ <ForgetPasswordPage/> } />
       </Route>
     </Routes>
   );

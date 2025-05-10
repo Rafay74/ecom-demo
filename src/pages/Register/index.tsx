@@ -1,7 +1,8 @@
+import RegisterSection from "../../components/auth/register"
 
 const RegisterPage = () => {
   return (
-    <div>RegisterPage</div>
+    <div><RegisterSection/></div>
   )
 }
 

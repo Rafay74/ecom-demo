@@ -4,6 +4,7 @@ export const ROUTE_CONSTANTS = {
     MEN: '/men',
     KID: '/kids',
     LOGIN: '/login',
-    REGISTER: '/register'
+    REGISTER: '/register',
+    FORGET_PASSWORD:'/forget-password'
   };
   
